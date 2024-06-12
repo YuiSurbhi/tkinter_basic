@@ -29,7 +29,7 @@ edit.add_command(label = 'Find Again..',command = None)
 
 #adding help menu and commands
 help = Menu(menubar, tearoff = 0)
-menubar.add_cascade(label = 'Help',command = None)
+menubar.add_cascade(label = 'Help',menu = help)
 help.add_command(label = 'Tk Help',command = None)
 help.add_command(label = 'Demo',command = None)
 help.add_separator()
