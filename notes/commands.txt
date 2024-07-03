@@ -1,0 +1,14 @@
+The use and meant by these Commands:-
+
+-> tearoff() = 1)If you set tearoff = 0, the menu will not have a tearoff feature , and choices will be 
+                 added starting at position 0.
+
+               2)tearoff is used in menu for positining the label or item you wants to add.
+
+-> add_command() = add a menu item to the menu.
+
+-> add_cascade() = 1)Create a new hierarchical menu by associating a given menu to a parent menu.
+
+                   2)This is used to place menu item step by step.
+
+-> add_separator() = Add a separate line to the menu.
